@@ -1,6 +1,6 @@
 #include "holberton.h"
 
-/* 
+/*
  * main - prints holberton
  * return - o if success.
  */
@@ -18,7 +18,7 @@ int main(void)
 	_putchar('n');
 	_putchar('\n');
 
-	return(0);
+	return (0);
 }
 
 
