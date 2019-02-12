@@ -1,10 +1,10 @@
 #include "holberton.h"
 
-/*
- * main - prints holberton
- * return - o if success.
+/**
+ * main - prints holberton.
+ *
+ * Return: 0 if success.
  */
-
 int main(void)
 {
 	_putchar('H');
