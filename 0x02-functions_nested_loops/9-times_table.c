@@ -5,7 +5,6 @@
  *
  * Return: 0 if success.
 */
-
 void times_table(void)
 {
 	int i, j, temp;
