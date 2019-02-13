@@ -5,7 +5,6 @@
  *
  * Return: 0 if success.
 */
-
 void times_table(void)
 {
 	int i, j, temp;
@@ -30,11 +29,11 @@ void times_table(void)
 			}
 			if (j != 9)
 			{
-				putchar(',');
-				putchar(' ');
+				_putchar(',');
+				_putchar(' ');
 			}
 
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
