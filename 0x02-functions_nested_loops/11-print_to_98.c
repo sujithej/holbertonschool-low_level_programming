@@ -1,7 +1,9 @@
 #include "holberton.h"
 
 /**
- * Prints a given number between 0 to 999;
+ * print_integer - defines n till a 3 digit number.
+ * @n: n is an integer.
+ * Return: 0 if success
  */
 void print_integer(int n)
 {
@@ -27,6 +29,11 @@ void print_integer(int n)
 	}
 }
 
+/**
+ * print_spaces_except_98 - it prints spaces and comma for integers except 98.
+ * @i: i is an integer.
+ * Return: 0 if success
+ */
 void print_spaces_except_98(int i)
 {
 	if (i != 98)
@@ -35,6 +42,12 @@ void print_spaces_except_98(int i)
 		_putchar(' ');
 	}
 }
+
+/**
+ * print_to_98 - Prints a given number till 98.
+ * @n: n is an integer.
+ * Return: 0 if success
+ */
 
 void print_to_98(int n)
 {
