@@ -1,5 +1,4 @@
 #include "holberton.h"
-#include "unistd.h"
 
 /**
  * print_numbers - checks the character is digit.
