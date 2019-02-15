@@ -10,7 +10,7 @@ int main(void)
 
 	for (i = 1; i <= 100; i++)
 	{
-		if ((i % 3 == 0) && (i % 5 == 0))
+		if (i % 3 == 0 && i % 5 == 0)
 		{
 			printf("FizzBuzz ");
 		}
@@ -31,7 +31,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-		printf("\n");
+		putchar('\n');
 		return (0);
 
 }
