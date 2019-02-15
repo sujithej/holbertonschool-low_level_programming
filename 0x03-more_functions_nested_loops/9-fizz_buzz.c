@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include <stdio.h>
 
 /**
  * main - printing Fizz and Buzz for multiples of 3 and 5 respectively.
@@ -31,7 +31,7 @@ int main(void)
 			printf("%d ", i);
 		}
 	}
-		putchar('\n');
+		printf("\n");
 		return (0);
 
 }
