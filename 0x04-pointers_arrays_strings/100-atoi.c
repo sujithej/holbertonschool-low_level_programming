@@ -30,7 +30,7 @@ int _atoi(char *s)
 	}
 	if (flag != 2)
 	{
-		return 0;
+		return (0);
 	}
 	return (result);
 }
