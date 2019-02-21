@@ -18,10 +18,10 @@ int _atoi(char *s)
 		{
 			sign *= -1;
 		}
-		else if (s[i] >= '0' && s[i] <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
 			flag = 1;
-			result = sign * result * 10 + (s[i] - '0');
+			result = sign * result * 10 + sign * (s[i] - '0');
 		}
 		else if (flag == 1)
 		{
