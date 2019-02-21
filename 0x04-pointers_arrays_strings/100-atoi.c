@@ -10,7 +10,7 @@ int _atoi(char *s)
 	int i;
 	int sign = 1;
 	int flag = 0;
-	int result = 0;
+	unsigned int result = 0;
 
 	for (i = 0; *s != '\0' && flag != 2; i++)
 	{
@@ -21,12 +21,16 @@ int _atoi(char *s)
 		else if (s[i] >= '0' && s[i] <= '9')
 		{
 			flag = 1;
-			result = result * 10 + (s[i] - '0');
+			result = sign * result * 10 + (s[i] - '0');
 		}
 		else if (flag == 1)
 		{
 			flag = 2;
 		}
 	}
-	return (sign * result);
+	if (flag != 2)
+	{
+		return 0;
+	}
+	return (result);
 }
