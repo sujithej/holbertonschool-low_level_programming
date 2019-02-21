@@ -21,7 +21,7 @@ int _atoi(char *s)
 		if (s[i] >= '0' && s[i] <= '9')
 		{
 			flag = 1;
-			result = sign * result * 10 + sign * (s[i] - '0');
+			result =  result * 10 + sign * (s[i] - '0');
 		}
 		else if (flag == 1)
 		{
