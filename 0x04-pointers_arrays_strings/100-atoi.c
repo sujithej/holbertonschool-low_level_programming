@@ -12,7 +12,7 @@ int _atoi(char *s)
 	int flag = 0;
 	int result = 0;
 
-	for (i = 0; *(s+i) != '\0' && flag != 2; i++)
+	for (i = 0; s[i] != '\0' && flag != 2; i++)
 	{
 		if (s[i] == '-')
 		{
@@ -27,10 +27,6 @@ int _atoi(char *s)
 		{
 			flag = 2;
 		}
-	}
-	if (flag != 2)
-	{
-		return (0);
 	}
 	return (result);
 }
