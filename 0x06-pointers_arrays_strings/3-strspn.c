@@ -1,9 +1,9 @@
 #include "holberton.h"
 
 /**
- * strchr_1 - Copies from src to dest
+ * strchr_1 - locates character in string
  * @c: character c to be located for.
- * @s: pointer to an array.
+ * @s: pointer to a string.
  * Return: returns s.
  */
 char strchr_1(char *s, char c)
@@ -21,8 +21,8 @@ char strchr_1(char *s, char c)
 
 /**
  * _strspn - to find length of prefix substring
- * @s: string
- * @accept: number of bytes
+ * @s: string to check
+ * @accept: number of bytes of prefix
  * Return: length of substring
  */
 unsigned int _strspn(char *s, char *accept)
