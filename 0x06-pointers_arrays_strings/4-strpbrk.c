@@ -18,6 +18,7 @@ char strchr_1(char *s, char c)
 		}
 
 	}
+	return (0);
 }
 
 /**
