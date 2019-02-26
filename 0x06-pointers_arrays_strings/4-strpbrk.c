@@ -18,6 +18,11 @@ char strchr_1(char *s, char c)
 		}
 
 	}
+
+	if (c == '\0')
+	{
+		return (1);
+	}
 	return (0);
 }
 
