@@ -18,12 +18,6 @@ char strchr_1(char *s, char c)
 		}
 
 	}
-
-	if (c == '\0')
-	{
-		return (1);
-	}
-	return (0);
 }
 
 /**
@@ -43,11 +37,5 @@ char *_strpbrk(char *s, char *accept)
 			return (s + i);
 		}
 	}
-
-	if (strchr_1(accept, s[i]))
-	{
-		return (s + i);
-	}
-
 	return (NULL);
 }
