@@ -8,7 +8,7 @@
  */
 char strchr_1(char *s, char *c)
 {
-	while (*s)
+	while (*s && *c)
 	{
 		if (*s != *c)
 			return (0);
