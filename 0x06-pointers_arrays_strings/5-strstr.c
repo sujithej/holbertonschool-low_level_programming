@@ -8,7 +8,7 @@
  */
 char strchr_1(char *s, char *c)
 {
-	while (*s != '\0')
+	while (*s)
 	{
 		if (*s != *c)
 			return (0);
@@ -30,10 +30,10 @@ char *_strstr(char *haystack, char *needle)
 	if (needle[0] == '\0')
 		return (haystack);
 
-	while (*haystack != '\0')
+	while (*haystack)
 	{
 		if (strchr_1(haystack, needle))
-		return (haystack);
+			return (haystack);
 		haystack++;
 	}
 	return (NULL);
