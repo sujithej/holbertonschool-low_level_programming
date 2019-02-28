@@ -8,7 +8,7 @@
  */
 int prime_number_1(int n, int i)
 {
-	if (n / 2 <= i) 
+	if (n / 2 < i) 
 	{
 		return (1);
 	}
