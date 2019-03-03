@@ -1,6 +1,11 @@
 #include "holberton.h"
 #include <stdlib.h>
 
+/**
+ * is_digit - checks for a digit.
+ * @s: string.
+ * Return: 1 if true, 0 if fail.
+ */
 int is_digit(char *s)
 {
 	int i;
