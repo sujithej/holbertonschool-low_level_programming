@@ -24,13 +24,14 @@ char *str_concat(char *s1, char *s2)
 	unsigned int i, j, len;
 
 	len = _strlen(s1) + _strlen(s2) + 1;
+	
+	if (len == 0)
+	{
+		return NULL
+	}
 
 	char *a = malloc(len * sizeof(char));
 
-	if (!a)
-	{
-		return (NULL);
-	}
 	for (i = 0; s1[i]; i++)
 	{
 		a[i] = s1[i];
